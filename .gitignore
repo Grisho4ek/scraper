@@ -1,5 +1,5 @@
 .env
 node_modules
-screenshots
 *.png
-data.json
+linkedin_jobs.json
+data
