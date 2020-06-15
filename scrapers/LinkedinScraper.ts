@@ -62,7 +62,7 @@ class LinkedinScraper extends Scraper {
     const browser = await puppeteer.launch({
       headless: false,
       slowMo: 50,
-      userDataDir: './data',
+      userDataDir: './data/jobs',
       // args: ['--start-maximized'],
       executablePath: process.env.path || undefined,
       defaultViewport: null

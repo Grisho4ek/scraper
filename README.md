@@ -26,14 +26,48 @@ create .env file in root of project
 | password | required | linkedIn password |
 | path     | optional |  path to browser  |
 
-## Usage
+### Usage
 
 ```shell
-npm start
+npm run jobs
 ```
 
 or with parameters
 
 ```shell
-npm start React London 5
+npm run jobs React London 5
 ```
+
+output: linkedin_jobs.json
+
+## GoogleTranslate
+
+|            | default |
+| ---------- | :-----: |
+| sourceLang | English |
+| targetLang | Russian |
+
+### Env variables for GoogleTranslate
+
+create .env file in root of project
+
+| name       |          |
+| ---------- | :------: |
+| sourceLang | optional |
+| targetLang | optional |
+
+### Usage
+
+plain words
+
+```shell
+npm run words study english
+```
+
+or sentence
+
+```shell
+npm run words 'I love chocolate'
+```
+
+output: vocabulary.txt
