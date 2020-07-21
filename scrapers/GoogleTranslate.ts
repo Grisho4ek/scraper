@@ -84,7 +84,7 @@ class GoogleTranslate extends Scraper {
   private async getTranslatedWords(page: Page) {
     let targetWords = '';
 
-    for (let sourceWord of this.sourceWords) {
+    for (const sourceWord of this.sourceWords) {
       await page.evaluate(SOURCE => {
         document.querySelector(SOURCE).value = '';
       }, Constants.SOURCE);
