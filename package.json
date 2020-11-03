@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/puppeteer": "^3.0.1",
+    "@types/puppeteer": "^5.4.0",
     "@types/user-agents": "^1.0.0",
     "dotenv": "^8.2.0",
     "puppeteer": "^5.2.0",
